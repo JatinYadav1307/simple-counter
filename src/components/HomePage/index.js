@@ -54,7 +54,7 @@ class HomePage extends Component {
 				</CenterFlex>
 				<BottomText>
 					<Box pb={2}>Made with React, Rematch, and Pose.</Box>
-					<a href="http://google.com" target={'_blank'}>
+					<a href="https://github.com/JatinYadav1307/simple-counter" target={'_blank'}>
 						Checkout Code at GitHub
 					</a>
 				</BottomText>
