@@ -58,7 +58,7 @@ class HomePage extends Component {
 						href="https://github.com/JatinYadav1307/simple-counter"
 						target={'_blank'}
 					>
-						Checkout Code at GitHub
+						Checkout Code over at GitHub
 					</a>
 				</BottomText>
 			</React.Fragment>
