@@ -22,7 +22,7 @@ class HomePage extends Component {
 					justifyContent={'center'}
 				>
 					<Counter pose={this.state.hoverStatus}>{this.props.count}</Counter>
-					<Box mt={4}>
+					<ResponsiveFlex mt={4}>
 						<Box px={2}>
 							<UpdateButton
 								onMouseEnter={() => this.setState({ hoverStatus: 'incBy1' })}
@@ -50,7 +50,7 @@ class HomePage extends Component {
 								Reset Count
 							</UpdateButton>
 						</Box>
-					</Box>
+					</ResponsiveFlex>
 				</CenterFlex>
 				<BottomText>
 					<Box pb={2}>Made with React, Rematch, and Pose.</Box>
